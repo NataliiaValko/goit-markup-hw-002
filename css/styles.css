@@ -1,0 +1,208 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --secondary-background-color: #2f303a;
+  --additional-background-color: #f5f4fa;
+  --primary-white-color: #ffffff;
+  --secondary-light-color: rgba(255, 255, 255, 0.6);
+  --hover-accent-color: #188ce8;
+  --dark-color: #000000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+
+  color: var(--accent-color);
+}
+
+.logo-dark {
+  color: var(--dark-color);
+}
+
+.nav-link {
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: var(--title-text-color);
+}
+
+.nav-link:hover,
+.nav-link:focus,
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link.current,
+.address-link:hover,
+.address-link:focus {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+.hero {
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--primary-white-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.06em;
+
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--hover-accent-color);
+}
+
+.features-title {
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  text-transform: uppercase;
+
+  color: var(--title-text-color);
+}
+
+.features-text {
+  line-height: calc(24 / 14);
+}
+
+.title {
+  font-size: 36px;
+  line-height: calc(42 / 36);
+
+  color: var(--title-text-color);
+}
+
+.team {
+  background-color: var(--additional-background-color);
+}
+
+.team-item {
+  background-color: var(--primary-white-color);
+}
+
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: var(--title-text-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+}
+
+.filter-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+
+  background: var(--additional-background-color);
+  color: var(--title-text-color);
+
+  cursor: pointer;
+}
+
+.filter-button.current,
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+
+.cards-title {
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.cards-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+
+.footer {
+  background-color: var(--secondary-background-color);
+}
+
+.logo-light {
+  color: var(--primary-white-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+.address-link {
+  line-height: calc(16 / 14);
+
+  color: var(--secondary-light-color);
+}
+
+.address-link-light {
+  line-height: calc(16 / 14);
+
+  color: var(--primary-white-color);
+}
